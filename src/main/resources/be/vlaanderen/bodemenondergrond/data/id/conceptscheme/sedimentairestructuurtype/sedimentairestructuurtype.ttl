@@ -54,321 +54,503 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:sedimentairestructuurtype a skos:Collection;
+concept:be dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.be";
+    a skos:Concept;
+    skos:definition "Fenestrae. Holten van millimetergrootte in sedimentaire gesteente die geheel of gedeeltelijk opgevuld kunnen zijn door sediment of cement, gevormd door uitdroging of insluiting van lucht."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:member <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/27>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/28>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/29>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/30>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/31>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/32>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/33>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/34>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/35>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/36>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/37>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/38>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/40>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/41>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/42>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/43>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/44>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/45>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/46>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/47>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/48>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/49>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/50>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/51>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/52>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/53>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/54>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/55>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/56>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/57>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/58>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/59>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/60>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/61>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/62>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/9>;
-    skos:prefLabel "Collectie van sedimentairestructuurtype."@nl.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/0> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "0";
-    skos:prefLabel "onbepaald"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/10> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "10";
-    skos:prefLabel "slumping"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/11> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "11";
-    skos:prefLabel "compactiebreuken"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/12> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "12";
-    skos:prefLabel "'regendruppels' (cf. Planolites)"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/13> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "13";
-    skos:prefLabel "erosievlak"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/14> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "14";
-    skos:prefLabel "niet-gecompacteerde fossielen"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/15> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "15";
-    skos:prefLabel "micarijk vlak"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/16> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "16";
-    skos:prefLabel "zwart / kolig laagvlak"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/17> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "17";
-    skos:prefLabel "laagvlak met koolbrokjes"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/18> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "18";
-    skos:prefLabel "aangespoelde plantenresten / plantenhaksel"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/19> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "19";
-    skos:prefLabel "bioturbatie"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/1> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "1";
-    skos:prefLabel "straticulaties"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/20> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "20";
-    skos:prefLabel "verspreide keien"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/21> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "21";
-    skos:prefLabel "mudstone textuur"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/22> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "22";
-    skos:prefLabel "wackestone textuur"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/23> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "23";
-    skos:prefLabel "packstone textuur"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/24> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "24";
-    skos:prefLabel "grainstone textuur"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/25> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "25";
-    skos:prefLabel "boundstone textuur"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/26> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "26";
-    skos:prefLabel "karst / oplossing"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/27> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "27";
-    skos:prefLabel "hardground"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/28> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "28";
-    skos:prefLabel "concretie"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/29> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "29";
-    skos:prefLabel "versteend / aaneengekit materiaal"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/2> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "2";
-    skos:prefLabel "laminaties"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/30> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "30";
-    skos:prefLabel "uitdrogingsspleten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/31> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "31";
-    skos:prefLabel "bioklasten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/32> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "32";
-    skos:prefLabel "pellets"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/33> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "33";
-    skos:prefLabel "oölieten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/34> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "34";
-    skos:prefLabel "oncolieten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/35> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "35";
-    skos:prefLabel "pisolieten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/36> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "36";
-    skos:prefLabel "intraklasten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/37> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "37";
-    skos:prefLabel "evaporiet pseudomorfen"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/38> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "38";
-    skos:prefLabel "calcrete / caliche"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/3> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "3";
-    skos:prefLabel "geband"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/40> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "40";
-    skos:prefLabel "FU-gegradeerde gelaagdheid"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/41> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "41";
-    skos:prefLabel "CU-gegradeerde gelaagdheid"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/42> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "42";
-    skos:prefLabel "turbidiet"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/43> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "43";
-    skos:prefLabel "speleotheem"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/44> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "44";
+    skos:notation "BE";
+    skos:note "Fenestrae. Holten van millimetergrootte in sedimentaire gesteente die geheel of gedeeltelijk opgevuld kunnen zijn door sediment of cement, gevormd door uitdroging of insluiting van lucht."@nl;
     skos:prefLabel "birdseyes"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/45> a skos:Concept;
+concept:bk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.bk";
+    a skos:Concept;
+    skos:definition "Korrels die bestaan uit de overblijfselen van organismen, vaak microscopische kalkskeletjes."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "45";
-    skos:prefLabel "stroomribbels"@nl;
+    skos:notation "BK";
+    skos:note "Korrels die bestaan uit de overblijfselen van organismen, vaak microscopische kalkskeletjes."@nl;
+    skos:prefLabel "bioklasten"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/46> a skos:Concept;
+concept:bo dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.bo";
+    a skos:Concept;
+    skos:definition "Kalksteen waarbij de korrels aaneengekit zijn door organismen."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "46";
-    skos:prefLabel "fijn gebankt"@nl;
+    skos:notation "BO";
+    skos:note "Kalksteen waarbij de korrels aaneengekit zijn door organismen."@nl;
+    skos:prefLabel "boundstone textuur"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/47> a skos:Concept;
+concept:br dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.br";
+    a skos:Concept;
+    skos:definition "Klastisch met grove hoekige fragmenten."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "47";
-    skos:prefLabel "kleiklasten"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/48> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "48";
-    skos:prefLabel "golvend laagvlak"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/49> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "49";
+    skos:notation "BR";
+    skos:note "Klastisch met grove hoekige fragmenten."@nl;
     skos:prefLabel "breccieus"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/4> a skos:Concept;
+concept:bt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.bt";
+    a skos:Concept;
+    skos:definition "Het omwoelen van sediment, hoofdzakelijk door gravende organismen."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "4";
-    skos:prefLabel "lensvormige gelaagdheid"@nl;
+    skos:notation "BT";
+    skos:note "Het omwoelen van sediment, hoofdzakelijk door gravende organismen."@nl;
+    skos:prefLabel "bioturbatie"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/50> a skos:Concept;
+concept:ca dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ca";
+    a skos:Concept;
+    skos:definition "Een poederig, nodulair tot sterk verhard materiaal dat nabij het oppervlak gevormd is in een ariede tot semi-ariede omgeving, door cementatie door calciet, aangevoerd door grondwater in het sediment en de bodem."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "50";
-    skos:prefLabel "kleilenzen /-laagjes"@nl;
+    skos:notation "CA";
+    skos:note "Een poederig, nodulair tot sterk verhard materiaal dat nabij het oppervlak gevormd is in een ariede tot semi-ariede omgeving, door cementatie door calciet, aangevoerd door grondwater in het sediment en de bodem."@nl;
+    skos:prefLabel "calcrete / caliche"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/51> a skos:Concept;
+concept:cb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.cb";
+    a skos:Concept;
+    skos:definition "Breuken ontstaan door compactie van het sediment bij begraving."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "51";
-    skos:prefLabel "kalkklasten"@nl;
+    skos:notation "CB";
+    skos:note "Breuken ontstaan door compactie van het sediment bij begraving."@nl;
+    skos:prefLabel "compactiebreuken"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/52> a skos:Concept;
+concept:co dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.co";
+    a skos:Concept;
+    skos:definition "Nodule, vaak sferisch maar kan ook irregulair van vorm zijn. Vaak bestaande uit carbonaatmateriaal, pyriet, gips of silica."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "52";
+    skos:notation "CO";
+    skos:note "Nodule, vaak sferisch maar kan ook irregulair van vorm zijn. Vaak bestaande uit carbonaatmateriaal, pyriet, gips of silica."@nl;
+    skos:prefLabel "concretie"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:cu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.cu";
+    a skos:Concept;
+    skos:definition "Gelaagd sediment waarbij de korrelgrootte toeneemt naar boven toe."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "CU";
+    skos:note "Gelaagd sediment waarbij de korrelgrootte toeneemt naar boven toe."@nl;
+    skos:prefLabel "CU-gegradeerde gelaagdheid"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ep dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ep";
+    a skos:Concept;
+    skos:definition "Een secundair evaporiet mineraal dat de vorm van het oorspronkelijke mineraal of fossiel heeft behouden."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "EP";
+    skos:note "Een secundair evaporiet mineraal dat de vorm van het oorspronkelijke mineraal of fossiel heeft behouden."@nl;
+    skos:prefLabel "evaporiet pseudomorfen"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ev dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ev";
+    a skos:Concept;
+    skos:definition "Een vlak (of lijn in een 2D profiel) waarop erosie heeft plaatsgevonden. Het bovenliggende pakket is ingesneden in het onderliggende pakket. Dit vlak kan recht of onregelmatig ondulerend zijn. Vaak is er een basisgrind aanwezig aan de basis van het bovenliggende pakket."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "EV";
+    skos:note "Een vlak (of lijn in een 2D profiel) waarop erosie heeft plaatsgevonden. Het bovenliggende pakket is ingesneden in het onderliggende pakket. Dit vlak kan recht of onregelmatig ondulerend zijn. Vaak is er een basisgrind aanwezig aan de basis van het bovenliggende pakket."@nl;
+    skos:prefLabel "erosievlak"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:fb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.fb";
+    a skos:Concept;
+    skos:definition "Aanwezigheid van fijne banken."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "FB";
+    skos:note "Aanwezigheid van fijne banken."@nl;
+    skos:prefLabel "fijn gebankt"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:fn dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.fn";
+    a skos:Concept;
+    skos:definition "Fossiele die niet volledig gecompacteerd zijn tot platte afdrukken."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "FN";
+    skos:note "Fossiele die niet volledig gecompacteerd zijn tot platte afdrukken."@nl;
+    skos:prefLabel "niet-gecompacteerde fossielen"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:fo dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.fo";
+    a skos:Concept;
+    skos:definition "Sediment rijk aan fossielen."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "FO";
+    skos:note "Sediment rijk aan fossielen."@nl;
     skos:prefLabel "fossielrijk"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/53> a skos:Concept;
+concept:fs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.fs";
+    a skos:Concept;
+    skos:definition "Een grofkorrelige kalksteen waarbij meer dan 10% van de klasten groter is dan 2 mm. De klasten worden door de matrix gedragen."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "53";
-    skos:prefLabel "nodulair"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/54> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "54";
-    skos:prefLabel "kleirijk laagvlak"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/55> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "55";
+    skos:notation "FS";
+    skos:note "Een grofkorrelige kalksteen waarbij meer dan 10% van de klasten groter is dan 2 mm. De klasten worden door de matrix gedragen."@nl;
     skos:prefLabel "floatstone"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/56> a skos:Concept;
+concept:fu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.fu";
+    a skos:Concept;
+    skos:definition "Gelaagd sediment waarbij de korrelgrootte afneemt naar boven toe."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "56";
-    skos:prefLabel "rudstone"@nl;
+    skos:notation "FU";
+    skos:note "Gelaagd sediment waarbij de korrelgrootte afneemt naar boven toe."@nl;
+    skos:prefLabel "FU-gegradeerde gelaagdheid"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/57> a skos:Concept;
+concept:ge dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ge";
+    a skos:Concept;
+    skos:definition "Aanwezigheid van een gebande textuur."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "57";
-    skos:prefLabel "pisoiden"@nl;
+    skos:notation "GE";
+    skos:note "Aanwezigheid van een gebande textuur."@nl;
+    skos:prefLabel "geband"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/58> a skos:Concept;
+concept:go dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.go";
+    a skos:Concept;
+    skos:definition "Een laagvlak dat een ondulerend of golvend voorkomen heeft, in tegenstelling tot een recht laagvlak."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "58";
-    skos:prefLabel "laminoid-fenestral structuur"@nl;
+    skos:notation "GO";
+    skos:note "Een laagvlak dat een ondulerend of golvend voorkomen heeft, in tegenstelling tot een recht laagvlak."@nl;
+    skos:prefLabel "golvend laagvlak"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/59> a skos:Concept;
+concept:gp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.gp";
+    a skos:Concept;
+    skos:definition "Structuur gevormd door de gedeeltelijke opvulling van een holte door sediment onder invloed van de zwaartekracht."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "59";
-    skos:prefLabel "limoniet- / ijzerbanken"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/5> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "5";
-    skos:prefLabel "massief (compact)"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/60> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "60";
-    skos:prefLabel "lignietbanken"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/61> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "61";
-    skos:prefLabel "veenbanken"@nl;
-    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/62> a skos:Concept;
-    skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "62";
+    skos:notation "GP";
+    skos:note "Structuur gevormd door de gedeeltelijke opvulling van een holte door sediment onder invloed van de zwaartekracht."@nl;
     skos:prefLabel "geopetale structuur"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/6> a skos:Concept;
+concept:gt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.gt";
+    a skos:Concept;
+    skos:definition "De textuur van een klastisch gesteente."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "6";
-    skos:prefLabel "zandwolken"@nl;
+    skos:notation "GT";
+    skos:note "De textuur van een klastisch gesteente."@nl;
+    skos:prefLabel "grainstone textuur"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/7> a skos:Concept;
+concept:hg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.hg";
+    a skos:Concept;
+    skos:definition "Een verhard oppervlak, gevormd door synsedimentaire lithificatie van sediment op de zeebodem tijdens een periode van verminderde sedimentatiesnelheid."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "7";
-    skos:prefLabel "schuine gelaagdheid"@nl;
+    skos:notation "HG";
+    skos:note "Een verhard oppervlak, gevormd door synsedimentaire lithificatie van sediment op de zeebodem tijdens een periode van verminderde sedimentatiesnelheid."@nl;
+    skos:prefLabel "hardground"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/8> a skos:Concept;
+concept:ik dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ik";
+    a skos:Concept;
+    skos:definition "Een klast gevormd door erosie van sediment niet lang na afzetting, herwerkt in een jongere afzetting."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "8";
+    skos:notation "IK";
+    skos:note "Een klast gevormd door erosie van sediment niet lang na afzetting, herwerkt in een jongere afzetting."@nl;
+    skos:prefLabel "intraklasten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ka dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ka";
+    a skos:Concept;
+    skos:definition "Oplossingsstructuren gevormd in carbonaathoudend materiaal, meestal door de inwerking van zuur oppervlaktewater."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KA";
+    skos:note "Oplossingsstructuren gevormd in carbonaathoudend materiaal, meestal door de inwerking van zuur oppervlaktewater."@nl;
+    skos:prefLabel "karst / oplossing"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ke dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ke";
+    a skos:Concept;
+    skos:definition "Laagjes of discontinue lenzen van klei."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KE";
+    skos:note "Laagjes of discontinue lenzen van klei."@nl;
+    skos:prefLabel "kleilenzen /-laagjes"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:kk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.kk";
+    a skos:Concept;
+    skos:definition "Een klast bestaande uit kalkmateriaal."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KK";
+    skos:note "Een klast bestaande uit kalkmateriaal."@nl;
+    skos:prefLabel "kalkklasten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:kl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.kl";
+    a skos:Concept;
+    skos:definition "Klasten bestaande uit kleiig materiaal."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KL";
+    skos:note "Klasten bestaande uit kleiig materiaal."@nl;
+    skos:prefLabel "kleiklasten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ko dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ko";
+    a skos:Concept;
+    skos:definition "Een laagvlak rijk aan brokjes van bruinkool of steenkool."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KO";
+    skos:note "Een laagvlak rijk aan brokjes van bruinkool of steenkool."@nl;
+    skos:prefLabel "laagvlak met koolbrokjes"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:kr dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.kr";
+    a skos:Concept;
+    skos:definition "Sedimentaire structuur waarbij schuine gelaagdheden voorkomen in verschillende tegengestelde oriëntaties."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "KR";
+    skos:note "Sedimentaire structuur waarbij schuine gelaagdheden voorkomen in verschillende tegengestelde oriëntaties."@nl;
     skos:prefLabel "kriskras gelaagdheid"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
-<https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/9> a skos:Concept;
+concept:kv dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.kv";
+    a skos:Concept;
+    skos:definition "Een laagvlak bestaande uit kleiig materiaal."@nl;
     skos:inScheme conceptscheme:sedimentairestructuurtype;
-    skos:notation "9";
+    skos:notation "KV";
+    skos:note "Een laagvlak bestaande uit kleiig materiaal."@nl;
+    skos:prefLabel "kleirijk laagvlak"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:la dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.la";
+    a skos:Concept;
+    skos:definition "Fijne discrete laagjes in het sediment of gesteente, tussen 0,005 en 1 mm dik."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LA";
+    skos:note "Fijne discrete laagjes in het sediment of gesteente, tussen 0,005 en 1 mm dik."@nl;
+    skos:prefLabel "laminaties"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:le dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.le";
+    a skos:Concept;
+    skos:definition "Voorkomen van lensvormige discontinue laagjes."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LE";
+    skos:note "Voorkomen van lensvormige discontinue laagjes."@nl;
+    skos:prefLabel "lensvormige gelaagdheid"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:lf dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.lf";
+    a skos:Concept;
+    skos:definition "Geëlongeerde dunne holten in sedimentaire gesteenten, geheel of gedeeltelijk opgevuld."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LF";
+    skos:note "Geëlongeerde dunne holten in sedimentaire gesteenten, geheel of gedeeltelijk opgevuld."@nl;
+    skos:prefLabel "laminoid-fenestral structuur"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:li dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.li";
+    a skos:Concept;
+    skos:definition "Banken bestaande uit ligniet of bruinkool."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LI";
+    skos:note "Banken bestaande uit ligniet of bruinkool."@nl;
+    skos:prefLabel "lignietbanken"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:lm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.lm";
+    a skos:Concept;
+    skos:definition "Banken die verhard zijn door de oxidatie van ijzerhoudende mineralen en de vorming van limoniet."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LM";
+    skos:note "Banken die verhard zijn door de oxidatie van ijzerhoudende mineralen en de vorming van limoniet."@nl;
+    skos:prefLabel "limoniet- / ijzerbanken"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:lo dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.lo";
+    a skos:Concept;
+    skos:definition "Structuur gevormd bij deformatie van nat sediment, bv. nadat zand wordt afgezet bovenop klei waarbij het zand deels inzakt en ronde afdrukken achterlaat in de klei."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "LO";
+    skos:note "Structuur gevormd bij deformatie van nat sediment, bv. nadat zand wordt afgezet bovenop klei waarbij het zand deels inzakt en ronde afdrukken achterlaat in de klei."@nl;
     skos:prefLabel "load cast"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ma dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ma";
+    a skos:Concept;
+    skos:definition "Zonder interne structuur."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "MA";
+    skos:note "Zonder interne structuur."@nl;
+    skos:prefLabel "massief (compact)"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:mi dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.mi";
+    a skos:Concept;
+    skos:definition "Een vlak rijk aan mica's of glimmers, plaatvormige fyllosilicaten."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "MI";
+    skos:note "Een vlak rijk aan mica's of glimmers, plaatvormige fyllosilicaten."@nl;
+    skos:prefLabel "micarijk vlak"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:mu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.mu";
+    a skos:Concept;
+    skos:definition "Gesteente met een zeer fijne kleiige textuur."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "MU";
+    skos:note "Gesteente met een zeer fijne kleiige textuur."@nl;
+    skos:prefLabel "mudstone textuur"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:no dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.no";
+    a skos:Concept;
+    skos:definition "Een sedimentair gesteente rijk aan afgeronde vormen (nodules)."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "NO";
+    skos:note "Een sedimentair gesteente rijk aan afgeronde vormen (nodules)."@nl;
+    skos:prefLabel "nodulair"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ob dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ob";
+    a skos:Concept;
+    skos:definition "Sedimentaire structuur onbepaald"@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "OB";
+    skos:note "Sedimentaire structuur onbepaald"@nl;
+    skos:prefLabel "onbepaald"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:on dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.on";
+    a skos:Concept;
+    skos:definition "Een korrel met carbonaatcoating gevormd door microbiële matten met irregulaire laminae."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "ON";
+    skos:note "Een korrel met carbonaatcoating gevormd door microbiële matten met irregulaire laminae."@nl;
+    skos:prefLabel "oncolieten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:oo dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.oo";
+    a skos:Concept;
+    skos:definition "Een kleine (< 2 mm) korrel met carbonaat- of ijzercoating met een cortex van fijne concentrische laminae zonder biogene eigenschappen en een nucleus bestaande uit een schelpfragment of een zandkorrel."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "OO";
+    skos:note "Een kleine (< 2 mm) korrel met carbonaat- of ijzercoating met een cortex van fijne concentrische laminae zonder biogene eigenschappen en een nucleus bestaande uit een schelpfragment of een zandkorrel."@nl;
+    skos:prefLabel "oölieten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:pe dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.pe";
+    a skos:Concept;
+    skos:definition "Een ovoïde tot sferisch micriet deeltje zonder interne structuur, met een diameter van 0,03 tot 0,15 mm."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "PE";
+    skos:note "Een ovoïde tot sferisch micriet deeltje zonder interne structuur, met een diameter van 0,03 tot 0,15 mm."@nl;
+    skos:prefLabel "pellets"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:pi dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.pi";
+    a skos:Concept;
+    skos:definition "Een korrel met carbonaatcoating groter dan 2 mm in diameter."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "PI";
+    skos:note "Een korrel met carbonaatcoating groter dan 2 mm in diameter."@nl;
+    skos:prefLabel "pisoiden"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:pl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.pl";
+    a skos:Concept;
+    skos:definition "Mengsel van plantenresten."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "PL";
+    skos:note "Mengsel van plantenresten."@nl;
+    skos:prefLabel "aangespoelde plantenresten / plantenhaksel"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ps dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ps";
+    a skos:Concept;
+    skos:definition "Een gesteente bestaande uit pisoiden."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "PS";
+    skos:note "Een gesteente bestaande uit pisoiden."@nl;
+    skos:prefLabel "pisolieten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:pt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.pt";
+    a skos:Concept;
+    skos:definition "Klastische kalksteen waarbij de korrels elkaar ondersteunen, met een beperkte hoeveelheid kalkmodder."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "PT";
+    skos:note "Klastische kalksteen waarbij de korrels elkaar ondersteunen, met een beperkte hoeveelheid kalkmodder."@nl;
+    skos:prefLabel "packstone textuur"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:re dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.re";
+    a skos:Concept;
+    skos:definition "Cilindrische vormen en afdrukken in het gesteente, bv. door graafactiviteit van organismen."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "RE";
+    skos:note "Cilindrische vormen en afdrukken in het gesteente, bv. door graafactiviteit van organismen."@nl;
+    skos:prefLabel "'regendruppels' (cf. Planolites)"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:ru dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.ru";
+    a skos:Concept;
+    skos:definition "Een klastisch gesteente met meer dan 30 % grindkorrels (> 2 mm), met of zonder een matrix van zand en/of klei."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "RU";
+    skos:note "Een klastisch gesteente met meer dan 30 % grindkorrels (> 2 mm), met of zonder een matrix van zand en/of klei."@nl;
+    skos:prefLabel "rudstone"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:sg dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.sg";
+    a skos:Concept;
+    skos:definition "De karakteristieke structuur gevormd door de stroomafwaartse migratie van onderwaterstructuren met een schuin sedimentair oppervlak."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "SG";
+    skos:note "De karakteristieke structuur gevormd door de stroomafwaartse migratie van onderwaterstructuren met een schuin sedimentair oppervlak."@nl;
+    skos:prefLabel "schuine gelaagdheid"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:sl dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.sl";
+    a skos:Concept;
+    skos:definition "Neerwaarts massatransport van sediment onder invloed van de zwaartekracht. Vaak sterke interne deformatie."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "SL";
+    skos:note "Neerwaarts massatransport van sediment onder invloed van de zwaartekracht. Vaak sterke interne deformatie."@nl;
+    skos:prefLabel "slumping"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:sp dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.sp";
+    a skos:Concept;
+    skos:definition "Een chemische neerslag gevormd in een grot (bv. stalagmieten en stalactieten). Doorgaans bestaande uit calciet, maar soms ook gips of haliet."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "SP";
+    skos:note "Een chemische neerslag gevormd in een grot (bv. stalagmieten en stalactieten). Doorgaans bestaande uit calciet, maar soms ook gips of haliet."@nl;
+    skos:prefLabel "speleotheem"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:sr dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.sr";
+    a skos:Concept;
+    skos:definition "Golvende structuren of ribbels gevormd door de stroming van water."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "SR";
+    skos:note "Golvende structuren of ribbels gevormd door de stroming van water."@nl;
+    skos:prefLabel "stroomribbels"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:st dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.st";
+    a skos:Concept;
+    skos:definition "Afzetting, sediment of gesteente met duidelijk herkenbare gelaagdheid of stratificatie."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "ST";
+    skos:note "Afzetting, sediment of gesteente met duidelijk herkenbare gelaagdheid of stratificatie."@nl;
+    skos:prefLabel "stratificaties"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:tu dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.tu";
+    a skos:Concept;
+    skos:definition "Een afzetting gevormd onder invloed van een onderwater densiteitsstroming van sediment in suspensie, onder invloed van de zwaartekracht, met het potentieel om over zeer zachte hellingen (< 1%) naar beneden of zelfs hellingopwaarts te stromen."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "TU";
+    skos:note "Een afzetting gevormd onder invloed van een onderwater densiteitsstroming van sediment in suspensie, onder invloed van de zwaartekracht, met het potentieel om over zeer zachte hellingen (< 1%) naar beneden of zelfs hellingopwaarts te stromen."@nl;
+    skos:prefLabel "turbidiet"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:us dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.us";
+    a skos:Concept;
+    skos:definition "Spleten gevormd door uitdroging, vaak in hexagonaal patroon en gevormd in kleiig sediment."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "US";
+    skos:note "Spleten gevormd door uitdroging, vaak in hexagonaal patroon en gevormd in kleiig sediment."@nl;
+    skos:prefLabel "uitdrogingsspleten"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:vb dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.vb";
+    a skos:Concept;
+    skos:definition "Banken bestaande uit veen of turf, afgestorven en zeer licht gecompacteerd organisch materiaal."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "VB";
+    skos:note "Banken bestaande uit veen of turf, afgestorven en zeer licht gecompacteerd organisch materiaal."@nl;
+    skos:prefLabel "veenbanken"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:vk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.vk";
+    a skos:Concept;
+    skos:definition "Verspreid voorkomen van keien of grind (> 2 mm)."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "VK";
+    skos:note "Verspreid voorkomen van keien of grind (> 2 mm)."@nl;
+    skos:prefLabel "verspreide keien"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:vs dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.vs";
+    a skos:Concept;
+    skos:definition "Materiaal dat (deels) versteend of aaneengekit is, bv. door een cement van kalk, ijzeroxiden of silica."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "VS";
+    skos:note "Materiaal dat (deels) versteend of aaneengekit is, bv. door een cement van kalk, ijzeroxiden of silica."@nl;
+    skos:prefLabel "versteend / aaneengekit materiaal"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:wa dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.wa";
+    a skos:Concept;
+    skos:definition "Een kalksteen met carbonaatdeeltjes die worden ondersteund door een matrix van fijne kalkmodder."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "WA";
+    skos:note "Een kalksteen met carbonaatdeeltjes die worden ondersteund door een matrix van fijne kalkmodder."@nl;
+    skos:prefLabel "wackestone textuur"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:zk dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.zk";
+    a skos:Concept;
+    skos:definition "Een laagvlak met een zwarte kleur door verhoogd organisch materiaal."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "ZK";
+    skos:note "Een laagvlak met een zwarte kleur door verhoogd organisch materiaal."@nl;
+    skos:prefLabel "zwart / kolig laagvlak"@nl;
+    skos:topConceptOf conceptscheme:sedimentairestructuurtype.
+concept:zw dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.sedimentairestructuurtype.zw";
+    a skos:Concept;
+    skos:definition "Lokaal voorkomen van een zandconcentratie in een ander materiaal."@nl;
+    skos:inScheme conceptscheme:sedimentairestructuurtype;
+    skos:notation "ZW";
+    skos:note "Lokaal voorkomen van een zandconcentratie in een ander materiaal."@nl;
+    skos:prefLabel "zandwolken"@nl;
     skos:topConceptOf conceptscheme:sedimentairestructuurtype.
 conceptscheme:sedimentairestructuurtype dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.sedimentairestructuurtype";
     a skos:ConceptScheme;
-    skos:hasTopConcept <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/0>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/10>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/11>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/12>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/13>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/14>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/15>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/16>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/17>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/18>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/19>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/1>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/20>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/21>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/22>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/23>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/24>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/25>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/26>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/27>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/28>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/29>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/2>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/30>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/31>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/32>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/33>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/34>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/35>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/36>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/37>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/38>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/3>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/40>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/41>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/42>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/43>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/44>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/45>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/46>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/47>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/48>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/49>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/4>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/50>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/51>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/52>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/53>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/54>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/55>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/56>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/57>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/58>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/59>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/5>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/60>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/61>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/62>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/6>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/7>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/8>, <https://data.bodemenondergrond.vlaanderen.be/id/concept/sedimentairestructuurtype/9>;
+    skos:hasTopConcept concept:be, concept:bk, concept:bo, concept:br, concept:bt, concept:ca, concept:cb, concept:co, concept:cu, concept:ep, concept:ev, concept:fb, concept:fn, concept:fo, concept:fs, concept:fu, concept:ge, concept:go, concept:gp, concept:gt, concept:hg, concept:ik, concept:ka, concept:ke, concept:kk, concept:kl, concept:ko, concept:kr, concept:kv, concept:la, concept:le, concept:lf, concept:li, concept:lm, concept:lo, concept:ma, concept:mi, concept:mu, concept:no, concept:ob, concept:on, concept:oo, concept:pe, concept:pi, concept:pl, concept:ps, concept:pt, concept:re, concept:ru, concept:sg, concept:sl, concept:sp, concept:sr, concept:st, concept:tu, concept:us, concept:vb, concept:vk, concept:vs, concept:wa, concept:zk, concept:zw;
     skos:prefLabel "Lijst van types sedimentaire structuren"@nl.
